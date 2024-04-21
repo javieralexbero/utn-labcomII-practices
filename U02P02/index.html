@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table,
+    td,
+    th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+
+    table {
+        width: 100%;
+    }
+</style>
+
+<body>
+    <table>
+        <h2>
+            Tabla básica
+        </h2>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th colspan="1">Ciudad / Pais </th>
+                <th>Edad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <th rowspan="1">Javier bermudez</th>
+            <th>Puerto Ordaz / Venezuela</th>
+            <th> 26 años</th>
+            <tr>
+                <th rowspan="1"> Jose Castillo</th>
+                <th>Caracas / Venezuela</th>
+                <th>47 años</th>
+
+            </tr>
+            <tr>
+                <th rowspan="1"> Marta Gimenez</th>
+                <th>Valencia / España</th>
+                <th>24 años</th>
+            </tr>
+            <tr>
+                <th rowspan="1"> Graciela Medina</th>
+                <th>Bucaramanga / Colombia</th>
+                <th> 29 años</th>
+            </tr>
+        </tbody>
+    </table>
+    <table>
+        <h2>Tabla compleja</h2>
+        <thead>
+
+            <th>Pais</th>
+            <th>Capital</th>
+            <th>Moneda</th>
+            <th>Bandera</th>
+            <th colspan="2">Historia </th>
+        </thead>
+        <tbody>
+            <tr>
+                <th>Venezuela</th>
+                <th>Caracas</th>
+                <th>Bolivar / VEF </th>
+                <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Venezuela.svg/135px-Flag_of_Venezuela.svg.png"
+                        alt=""></th>
+                <th rowspan="1"><a href="https://es.wikipedia.org/wiki/Venezuela"> Todo sobre Venezuela </a></th>
+            </tr>
+            <tr>
+                <th>Suiza</th>
+                <th>Berna</th>
+                <th>Franco Suizo / CHF</th>
+                <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/110px-Flag_of_Switzerland.svg.png"
+                        alt=""></th>
+                <th rowspan="1"><a href="https://es.wikipedia.org/wiki/Suiza"> Todo sobre Suiza</a></th>
+            </tr>
+            <tr>
+                <th>Argentina</th>
+                <th>Buenos Aires</th>
+                <th>Peso Argentino / ARS</th>
+                <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/135px-Flag_of_Argentina.svg.png"
+                        alt=""></th>
+                <th rowspan="1"><a href="https://es.wikipedia.org/wiki/Argentina"> Todo sobre Argentina</a></th>
+            </tr>
+            <tr>
+                <th>Estado Unidos</th>
+                <th>Washington D. C.</th>
+                <th>Dólar estadounidense / USD</th>
+                <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/135px-Flag_of_the_United_States.svg.png"
+                        alt=""></th>
+                <th rowspan="1"><a href="https://es.wikipedia.org/wiki/Estados_Unidos"> Todo sobre Estados Unidos</a></th>
+            </tr>
+            <tr>
+                <th>Canada</th>
+                <th>Ottawa</th>
+                <th>Dólar canadiense / CAD</th>
+                <th><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/135px-Flag_of_Canada_%28Pantone%29.svg.png"
+                        alt=""></th>
+                <th rowspan="1"><a href="https://es.wikipedia.org/wiki/Canad%C3%A1"> Todo sobre Canada</a></th>
+            </tr>
+        </tbody>
+    </table>
+    <h1>Bienvenido Inicio de Sesion</h1>
+    <form action="#">
+        <label for="Usuario">Usuario</label>
+        <input type="text" id="Usuario" name="Usuario" >
+        <label for="Contraseña">Contraseña</label>
+        <input type="password" id="Contraseña">
+        <button>Iniciar sesion</button>
+    </form>
+</body>
+
+</html>
